@@ -1,0 +1,14 @@
+{
+  "name": "eve-health-root",
+  "version": "1.0.0",
+  "description": "EveHealth Diagnostic Booking System - MERN Stack Monorepo",
+  "scripts": {
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "seed": "npm run seed --prefix backend",
+    "build:frontend": "npm run build --prefix frontend"
+  },
+  "keywords": ["mern", "diagnostic", "booking", "idempotency"],
+  "author": "",
+  "license": "ISC"
+}
